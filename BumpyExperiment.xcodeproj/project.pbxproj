@@ -21,6 +21,8 @@
 		412F425818842F9C001BDFBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F423A18842F9C001BDFBD /* UIKit.framework */; };
 		412F426018842F9C001BDFBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412F425E18842F9C001BDFBD /* InfoPlist.strings */; };
 		412F426218842F9C001BDFBD /* BumpyExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F426118842F9C001BDFBD /* BumpyExperimentTests.m */; };
+		412F426D18843DCA001BDFBD /* APLAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F426C18843DCA001BDFBD /* APLAccelerometer.m */; };
+		412F4270188448C8001BDFBD /* APLBarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F426F188448C8001BDFBD /* APLBarGraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		412F425D18842F9C001BDFBD /* BumpyExperimentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BumpyExperimentTests-Info.plist"; sourceTree = "<group>"; };
 		412F425F18842F9C001BDFBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		412F426118842F9C001BDFBD /* BumpyExperimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BumpyExperimentTests.m; sourceTree = "<group>"; };
+		412F426B18843DCA001BDFBD /* APLAccelerometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLAccelerometer.h; sourceTree = "<group>"; };
+		412F426C18843DCA001BDFBD /* APLAccelerometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLAccelerometer.m; sourceTree = "<group>"; };
+		412F426E188448C8001BDFBD /* APLBarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLBarGraphView.h; sourceTree = "<group>"; };
+		412F426F188448C8001BDFBD /* APLBarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLBarGraphView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +120,13 @@
 			children = (
 				412F424518842F9C001BDFBD /* APLAppDelegate.h */,
 				412F424618842F9C001BDFBD /* APLAppDelegate.m */,
+				412F426B18843DCA001BDFBD /* APLAccelerometer.h */,
+				412F426C18843DCA001BDFBD /* APLAccelerometer.m */,
 				412F424818842F9C001BDFBD /* Main.storyboard */,
 				412F424B18842F9C001BDFBD /* APLViewController.h */,
 				412F424C18842F9C001BDFBD /* APLViewController.m */,
+				412F426E188448C8001BDFBD /* APLBarGraphView.h */,
+				412F426F188448C8001BDFBD /* APLBarGraphView.m */,
 				412F424E18842F9C001BDFBD /* Images.xcassets */,
 				412F423D18842F9C001BDFBD /* Supporting Files */,
 			);
@@ -250,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412F4270188448C8001BDFBD /* APLBarGraphView.m in Sources */,
 				412F424718842F9C001BDFBD /* APLAppDelegate.m in Sources */,
+				412F426D18843DCA001BDFBD /* APLAccelerometer.m in Sources */,
 				412F424D18842F9C001BDFBD /* APLViewController.m in Sources */,
 				412F424318842F9C001BDFBD /* main.m in Sources */,
 			);

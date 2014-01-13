@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class APLAccelerometer;
+
 @interface APLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) APLAccelerometer* accel;
 
 @end
